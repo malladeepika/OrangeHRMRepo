@@ -5,6 +5,6 @@ XPWD	= //input[@name = 'txtPassword']
 XCLK	= //input[@type = 'Submit']
 
 UN		= selenium
-PWD		= selenium
+PWD		= Raju@123
 
 
