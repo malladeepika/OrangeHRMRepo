@@ -16,11 +16,11 @@ public class TestScript extends ReusableCode {
 			System.out.println("Landing page actual title is mismatched with expected title");
 		}
 		screenshot("HomePage");
-		timeout(2);
+		timeout(5);
 		xp("XUN").sendKeys(obj.getProperty("UN"));
 		xp("XPWD").sendKeys(obj.getProperty("PWD"));
 		screenshot("UsernamePassword");
-		timeout(2);
+		timeout(5);
 		xp("XCLK").click();
 		try {
 		Assert.assertEquals(driver.getTitle(), "OrangeHRM");
@@ -28,6 +28,6 @@ public class TestScript extends ReusableCode {
 			System.out.println("Home page actual title is mismatched with expecte title");
 		}
 		screenshot("AfterLogin");
-		timeout(2);
+		timeout(5);
 	}
 }
