@@ -1,10 +1,41 @@
-URL = http://127.0.0.1/orangehrm-2.5.0.2/login.php
-
-XUN 	= //input[@name = 'txtUserName']
-XPWD	= //input[@name = 'txtPassword']
-XCLK	= //input[@type = 'Submit']
-
-UN		= selenium
-PWD		= Raju@123
+URL = https://automationexercise.com/
 
 
+xp = //a[@href="/login"]
+xn = //input[@name="name"]
+uname = deepika
+xemail= //input[@data-qa="signup-email"]
+email= deepika1@gmail.com
+xsign= //button[text()='Signup']
+
+xradio= //input[@type='radio' and @value='Mrs']
+xpwd= //input[@type='password']
+pwd= deepika
+xday= //select[@id='days']/option[@value='15']
+xmonth= //select[@data-qa="months"]/option[@value='3']
+xyear= //select[@data-qa="years"]/option[@value='2007']
+
+
+xcheck= //input[@name="newsletter"]
+xc= //input[@name="optin"]
+
+aname= //input[@id="first_name"]
+name = malla
+alast = //input[@id="last_name"]
+last = deepika
+cm= //input[@id="company"]
+com= cgi 
+ad = //input[@id="address1"]
+address= hyd
+ad2 = //input[@id="address2"]
+address2 = gachibowli
+country= //select[@id="country"] /option[@value="India"]
+st= //input[@id="state"]
+state= andhra pradesh
+ct = //input[@id="city"]
+city = vizag
+zp = //input[@id="zipcode"]
+zipcode = 531036
+ph = //input[@id="mobile_number"]
+phone = 9087654321
+create= //button[text()='Create Account']
